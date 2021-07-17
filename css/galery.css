@@ -1,0 +1,31 @@
+.galery {
+  padding: 2rem 0; }
+  .galery h2 {
+    font-size: 1.6rem;
+    font-family: 'Marcellus'; }
+  .galery img {
+    border: 1px solid #f1ece0; }
+  .galery .btn {
+    margin-top: .4rem;
+    padding: 8px 36px;
+    cursor: pointer !important; }
+  .galery .content {
+    position: relative;
+    margin-bottom: 2rem; }
+    .galery .content::before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background: rgba(0, 0, 0, 0.3); }
+  .galery .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; }
+  .galery .content:hover .middle {
+    opacity: 1; }

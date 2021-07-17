@@ -1,0 +1,13 @@
+img {
+	max-width: 100%;
+}
+
+a, a:hover {
+    text-decoration: none;
+    transition: all .3s ease;
+    color: #000;
+}
+
+.btn {
+    background-color: $main;
+}

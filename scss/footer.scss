@@ -1,0 +1,77 @@
+
+.footer {
+    background-color: $bg-footer;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+
+    p {
+        color: rgb(138, 138, 138);
+    }
+
+	.logo-footer {
+		width: 50%;
+	}
+
+	.col-md-3 {
+		ul li {
+			list-style: none;
+			text-transform: uppercase;
+			margin-bottom: 0;
+		}
+	}
+
+	.ir-arriba {
+		display: none;
+		padding: 16px;
+		background-color: #1e1e1e;
+		font-size: 16px;
+		color: #fff;
+		cursor: pointer;
+		position: fixed;
+		bottom: 65px;
+		right: 20px;
+		z-index: 1;
+    }
+    
+nav ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+nav ul li {
+    padding: 20px;
+}
+nav ul a {
+    color: white;
+}
+}
+
+.sociales ul {
+    display: flex;
+    // justify-content: flex-end;
+}
+.sociales ul li span {
+    display: none;
+}
+
+
+.sociales ul li a:before {
+    font-family: "Font Awesome 5 Brands";
+}
+.sociales ul li a[href*='facebook.com']::before {
+    content: "\f39e";
+}
+.sociales ul li a[href*='twitter.com']::before {
+    content: "\f099";
+}
+.sociales ul li a[href*='youtube.com']::before {
+    content: "\f167";
+}
+.sociales ul li a[href*='pinterest.com']::before {
+    content: "\f0d2";
+}
+.sociales ul li a[href*='instagram.com']::before {
+    content: "\f16d";
+}
+

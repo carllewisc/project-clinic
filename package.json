@@ -1,0 +1,19 @@
+{
+  "name": "instituto",
+  "version": "1.0.0",
+  "description": "Instituto Universitario de Diseño Las Mercedes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"    
+  },
+  "author": "Carl Lewis Castillo",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
